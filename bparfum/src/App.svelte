@@ -73,7 +73,7 @@
         telefono: "(341) 198 9850",
         instagram: "@bparfumm",
         facebook: "bparfumm",
-        whatsappLink: "https://wa.me/5493411989850?text=Hola%20bparfum,%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20vuestros%20decants",
+        whatsappLink: "https://wa.me/523411989850?text=Hola%20bparfum,%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20sus%20decants",
         instaLink: "https://www.instagram.com/bparfumm/",
         fbLink: "https://www.facebook.com/people/bparfumm/61587455936137/"
     };
