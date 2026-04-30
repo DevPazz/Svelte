@@ -20,7 +20,7 @@
             opciones: [
                 { ml: 10, precio: 180 },
                 { ml: 5, precio: 120 },
-                { ml: 3, precio: 75 }
+                { ml: 3, precio: 80 }
             ]
         },
         { 
