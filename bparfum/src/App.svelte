@@ -75,7 +75,7 @@
         facebook: "bparfumm",
         telLink: "tel:3411989850",
         instaLink: "https://www.instagram.com/bparfumm/",
-        fbLink: "https://www.facebook.com/bparfumm/"
+        fbLink: "https://www.facebook.com/people/bparfumm/61587455936137/"
     };
 </script>
 
