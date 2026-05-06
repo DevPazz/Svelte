@@ -18,8 +18,8 @@
             marca: "Versace", 
             imagen: "/versaceR.jpg",
             opciones: [
-                { ml: 10, precio: 180 },
-                { ml: 5, precio: 120 },
+                { ml: 10, precio: 190 },
+                { ml: 5, precio: 130 },
                 { ml: 3, precio: 80 }
             ]
         },
