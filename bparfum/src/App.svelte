@@ -66,6 +66,17 @@
                 { ml: 5, precio: 100 },
                 { ml: 3, precio: 75 }
             ]
+        },
+        { 
+            id: 7, 
+            nombre: "Sauvage Eau de Parfum", 
+            marca: "Dior", 
+            imagen: "/sauvage.jpg",
+            opciones: [
+                { ml: 10, precio: 350 },
+                { ml: 5, precio: 220 },
+                { ml: 3, precio: 150 }
+            ]
         }
     ];
 
