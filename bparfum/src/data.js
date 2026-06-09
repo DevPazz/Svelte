@@ -27,8 +27,8 @@ export let decants = [
         marca: "Versace", 
         imagen: "/versaceA.jpg",
         opciones: [
-            { ml: 10, precio: 160 },
-            { ml: 5, precio: 90 },
+            { ml: 10, precio: 170 },
+            { ml: 5, precio: 100 },
             { ml: 3, precio: 70 }
         ]
     },
@@ -49,9 +49,9 @@ export let decants = [
         marca: "Jean Paul Gaultier", 
         imagen: "/jpglebeu.jpg",
         opciones: [
-            { ml: 10, precio: 250 },
-            { ml: 5, precio: 140 },
-            { ml: 3, precio: 100 }
+            { ml: 10, precio: 270 },
+            { ml: 5, precio: 160 },
+            { ml: 3, precio: 120 }
         ]
     },
     { 
