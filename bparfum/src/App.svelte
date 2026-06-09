@@ -1,93 +1,5 @@
 <script>
-    // Catálogo bparfum actualizado con múltiples opciones de tamaño
-    let decants = [
-        { 
-            id: 1, 
-            nombre: "Acqua di Giò Profondo EDP", 
-            marca: "Giorgio Armani", 
-            imagen: "/aqua.jpg",
-            opciones: [
-                { ml: 10, precio: 300 },
-                { ml: 5, precio: 180 },
-                { ml: 3, precio: 130 }
-            ]
-        },
-        { 
-            id: 2, 
-            nombre: "Eros Flame EDP", 
-            marca: "Versace", 
-            imagen: "/versaceR.jpg",
-            opciones: [
-                { ml: 10, precio: 190 },
-                { ml: 5, precio: 130 },
-                { ml: 3, precio: 80 }
-            ]
-        },
-        { 
-            id: 3, 
-            nombre: "Eros EDP", 
-            marca: "Versace", 
-            imagen: "/versaceA.jpg",
-            opciones: [
-                { ml: 10, precio: 160 },
-                { ml: 5, precio: 90 },
-                { ml: 3, precio: 70 }
-            ]
-        },
-        { 
-            id: 4, 
-            nombre: "Stronger With You Parfum", 
-            marca: "Emporio Armani", 
-            imagen: "/swy.jpg",
-            opciones: [
-                { ml: 10, precio: 250 },
-                { ml: 5, precio: 140 },
-                { ml: 3, precio: 100 }
-            ]
-        },
-        { 
-            id: 5, 
-            nombre: "Le Beau EDP", 
-            marca: "Jean Paul Gaultier", 
-            imagen: "/jpglebeu.jpg",
-            opciones: [
-                { ml: 10, precio: 250 },
-                { ml: 5, precio: 140 },
-                { ml: 3, precio: 100 }
-            ]
-        },
-        { 
-            id: 6, 
-            nombre: "212 VIP Black EDP", 
-            marca: "Carolina Herrera", 
-            imagen: "/chvip.jpg",
-            opciones: [
-                { ml: 10, precio: 170 },
-                { ml: 5, precio: 100 },
-                { ml: 3, precio: 75 }
-            ]
-        },
-        { 
-            id: 7, 
-            nombre: "Sauvage Eau de Parfum", 
-            marca: "Dior", 
-            imagen: "/sauvage.jpg",
-            opciones: [
-                { ml: 10, precio: 350 },
-                { ml: 5, precio: 220 },
-                { ml: 3, precio: 150 }
-            ]
-        }
-    ];
-
-    let contacto = {
-        telefono: "(341) 198 9850",
-        instagram: "@bparfumm",
-        facebook: "bparfumm",
-        whatsappLink: "https://wa.me/523411989850?text=Hola%20bparfum,%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20sus%20decants",
-        instaLink: "https://www.instagram.com/bparfumm/",
-        fbLink: "https://www.facebook.com/people/bparfumm/61587455936137/"
-    };
+    import { decants, contacto } from './data.js';
 </script>
 
 <main>
@@ -225,7 +137,7 @@
 
     .tarjeta {
         background: white;
-        width: 280px;
+        width: 310px;
         border-radius: 4px;
         overflow: hidden;
         box-shadow: 0 6px 15px rgba(0,0,0,0.06);
@@ -243,7 +155,7 @@
     .foto-wrapper {
         position: relative;
         width: 100%;
-        height: 250px;
+        height: 340px;
         overflow: hidden;
     }
 
@@ -278,10 +190,9 @@
         margin: 0 0 1rem 0;
         color: #1a1a1a;
         padding: 0 1rem;
-        flex-grow: 1; /* Empuja los precios hacia abajo para alinear todas las tarjetas */
+        flex-grow: 1;
     }
 
-    /* NUEVO ESTILO PARA LA LISTA DE PRECIOS */
     .lista-precios {
         background-color: #f9f9f9;
         border-top: 1px solid #eee;
